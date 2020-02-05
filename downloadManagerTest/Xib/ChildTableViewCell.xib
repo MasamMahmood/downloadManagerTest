@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="ChildTableViewCell" id="KAd-1V-kQk" customClass="ChildTableViewCell" customModule="downloadManagerTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="33"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7sz-qq-4Ms">
+                    <rect key="frame" x="8" y="0.0" width="358" height="33"/>
+                    <subviews>
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7j2-hu-pSk">
+                            <rect key="frame" x="33" y="0.0" width="1" height="33"/>
+                            <color key="backgroundColor" red="0.47058823529999999" green="0.56078431370000004" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="1" id="8ly-pS-per"/>
+                                <constraint firstAttribute="height" constant="33" id="HGa-l2-naK"/>
+                            </constraints>
+                        </view>
+                        <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tEu-8P-jkI">
+                            <rect key="frame" x="33" y="22" width="22" height="1"/>
+                            <color key="backgroundColor" red="0.47058823529999999" green="0.56078431370000004" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="OfA-2Q-VHK"/>
+                                <constraint firstAttribute="width" constant="22" id="PPq-Ah-fFz"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4036369 - 200014411444444" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HZ-kh-ng9">
+                            <rect key="frame" x="74" y="14" width="145" height="13"/>
+                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="11"/>
+                            <color key="textColor" red="0.2332891822" green="0.28437167410000003" blue="0.38401141760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="v9Y-Fm-tph">
+                            <rect key="frame" x="75" y="28" width="278" height="2"/>
+                            <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2" id="Yhy-SY-2WB"/>
+                            </constraints>
+                        </progressView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Downloaded" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KtS-Iw-dfZ">
+                            <rect key="frame" x="296.5" y="14" width="56.5" height="12"/>
+                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="10"/>
+                            <color key="textColor" red="0.47058823529999999" green="0.56078431370000004" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dgc-su-Sga">
+                            <rect key="frame" x="54" y="18.5" width="8" height="8"/>
+                            <color key="backgroundColor" red="0.92941176469999998" green="0.3294117647" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="8" id="0Ad-rI-a3V"/>
+                                <constraint firstAttribute="width" constant="8" id="rMq-ga-aYQ"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="v9Y-Fm-tph" firstAttribute="top" secondItem="8HZ-kh-ng9" secondAttribute="bottom" constant="1" id="8nt-K6-IEb"/>
+                        <constraint firstItem="7j2-hu-pSk" firstAttribute="leading" secondItem="7sz-qq-4Ms" secondAttribute="leading" constant="33" id="FF3-ZV-JGV"/>
+                        <constraint firstItem="7j2-hu-pSk" firstAttribute="top" secondItem="7sz-qq-4Ms" secondAttribute="top" id="JKU-c6-aIU"/>
+                        <constraint firstItem="tEu-8P-jkI" firstAttribute="leading" secondItem="7sz-qq-4Ms" secondAttribute="leading" constant="33" id="K20-w7-6re"/>
+                        <constraint firstItem="tEu-8P-jkI" firstAttribute="top" secondItem="7j2-hu-pSk" secondAttribute="bottom" constant="-11" id="R9O-sL-tJY"/>
+                        <constraint firstItem="dgc-su-Sga" firstAttribute="centerY" secondItem="tEu-8P-jkI" secondAttribute="centerY" id="TNF-s3-9qj"/>
+                        <constraint firstItem="KtS-Iw-dfZ" firstAttribute="top" secondItem="7sz-qq-4Ms" secondAttribute="top" constant="14" id="Tal-Y6-lhW"/>
+                        <constraint firstItem="v9Y-Fm-tph" firstAttribute="leading" secondItem="tEu-8P-jkI" secondAttribute="trailing" constant="20" id="TkP-Is-dG7"/>
+                        <constraint firstItem="8HZ-kh-ng9" firstAttribute="leading" secondItem="tEu-8P-jkI" secondAttribute="trailing" constant="19" id="W1B-N5-5eQ"/>
+                        <constraint firstAttribute="trailing" secondItem="v9Y-Fm-tph" secondAttribute="trailing" constant="5" id="cUf-6O-aOu"/>
+                        <constraint firstItem="8HZ-kh-ng9" firstAttribute="top" secondItem="7sz-qq-4Ms" secondAttribute="top" constant="14" id="hf4-ho-zyu"/>
+                        <constraint firstAttribute="trailing" secondItem="KtS-Iw-dfZ" secondAttribute="trailing" constant="5" id="hfq-3j-rEe"/>
+                        <constraint firstAttribute="height" constant="33" id="pAq-ZX-TjX"/>
+                        <constraint firstItem="dgc-su-Sga" firstAttribute="leading" secondItem="7j2-hu-pSk" secondAttribute="trailing" constant="20" id="qLc-MF-ebj"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="gWx-a9-YCG" firstAttribute="trailing" secondItem="7sz-qq-4Ms" secondAttribute="trailing" constant="9" id="6hm-Kk-HCV"/>
+                <constraint firstAttribute="bottom" secondItem="7sz-qq-4Ms" secondAttribute="bottom" id="EFJ-TR-vVa"/>
+                <constraint firstItem="7sz-qq-4Ms" firstAttribute="leading" secondItem="KAd-1V-kQk" secondAttribute="leading" constant="8" id="Tpg-we-Z3L"/>
+                <constraint firstItem="7sz-qq-4Ms" firstAttribute="top" secondItem="KAd-1V-kQk" secondAttribute="top" id="d7c-7n-8DB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="gWx-a9-YCG"/>
+            <connections>
+                <outlet property="downLoadReadyLabel" destination="KtS-Iw-dfZ" id="m9s-On-d24"/>
+                <outlet property="downloadProgressView" destination="v9Y-Fm-tph" id="U9H-R7-aBg"/>
+                <outlet property="fileNameLabel" destination="8HZ-kh-ng9" id="8WA-K4-dka"/>
+            </connections>
+            <point key="canvasLocation" x="179" y="19"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,154 @@
+{
+  "address": "ÇAYIROVA MAH. 5219 SK   No: 19 ÇAYIROVA / KOCAELİ",
+  "appointmentDate": "Ocak 24 17:00",
+  "appointmentType": "Tesisat Kontrol",
+  "appointmentId": 15473456,
+  "buildingCode": "7447024",
+  "projectName": "Ayten Alpman",
+  "projectNo": "PRJ-222",
+  "projectType": "İLAVE",
+  "sectionList": [
+    {
+      "title": "Birimler",
+      "items": [
+        {
+          "actionType": 0,
+          "bgColor": "#d5ebda",
+          "textField": "D4",
+          "textValue": "",
+          "unitId": 8570035,
+          "appointmentId": 15473456
+        }
+      ]
+    },
+    {
+      "title": "Proje Planları",
+      "items": [
+        {
+          "actionType": 2,
+          "textField": "KAPAK",
+          "actionUrl": "http://pdfv2.zetacad.com/Pdf/GetPageFromPdfUrl?url=http://d4static.zetacad.com/31/2019/8585/6999606/6999606.pdf&page=1"
+        },
+        {
+          "actionType": 2,
+          "textField": "VAZİYET",
+          "actionUrl": "http://pdfv2.zetacad.com/Pdf/GetPageFromPdfUrl?url=http://d4static.zetacad.com/31/2019/8585/6999606/6999606.pdf&page=2"
+        },
+        {
+          "actionType": 2,
+          "textField": "2. KAT [D:4 D:5 D:6 D:6]",
+          "actionUrl": "http://pdfv2.zetacad.com/Pdf/GetPageFromPdfUrl?url=http://d4static.zetacad.com/31/2019/8585/6999606/6999606.pdf&page=3"
+        },
+        {
+          "actionType": 2,
+          "textField": "İZOMETRİK ŞEMA",
+          "actionUrl": "http://pdfv2.zetacad.com/Pdf/GetPageFromPdfUrl?url=http://d4static.zetacad.com/31/2019/8585/6999606/6999606.pdf&page=4"
+        },
+        {
+          "actionType": 2,
+          "textField": "LOKAL KAYIP TABLOSU",
+          "actionUrl": "http://pdfv2.zetacad.com/Pdf/GetPageFromPdfUrl?url=http://d4static.zetacad.com/31/2019/8585/6999606/6999606.pdf&page=5"
+        },
+        {
+          "actionType": 2,
+          "textField": "21 mbar BORU ÇAPI HESAPLARI TABLOSU",
+          "actionUrl": "http://pdfv2.zetacad.com/Pdf/GetPageFromPdfUrl?url=http://d4static.zetacad.com/31/2019/8585/6999606/6999606.pdf&page=6"
+        },
+        {
+          "actionType": 2,
+          "textField": "TÜM DEVRE KAYIPLARI",
+          "actionUrl": "http://pdfv2.zetacad.com/Pdf/GetPageFromPdfUrl?url=http://d4static.zetacad.com/31/2019/8585/6999606/6999606.pdf&page=7"
+        },
+        {
+          "actionType": 2,
+          "textField": "STANDARTLAR TABLOSU",
+          "actionUrl": "http://pdfv2.zetacad.com/Pdf/GetPageFromPdfUrl?url=http://d4static.zetacad.com/31/2019/8585/6999606/6999606.pdf&page=8"
+        },
+        {
+          "actionType": 2,
+          "textField": "DETAY TOBLOSU",
+          "actionUrl": "http://pdfv2.zetacad.com/Pdf/GetPageFromPdfUrl?url=http://d4static.zetacad.com/31/2019/8585/6999606/6999606.pdf&page=9"
+        }
+      ]
+    },
+    {
+      "title": "Proje Evrakları",
+      "items": [
+        {
+          "actionType": 1,
+          "textField": "1- Cihaz Uygunluk Belgesi [D4]",
+          "actionUrl": "http://d4static.zetacad.com/31/2020/8585/6999606/3dd470b0-7531-4699-9e39-9acb9b646bab.png&Basim=true",
+          "uniqueFileName": "6999606_9_14786278"
+        },
+        {
+          "actionType": 2,
+          "textField": "2- Doğalgaz Uygunluk Belgesi [D4]",
+          "actionUrl": "http://d4static.zetacad.com/31/2020/8585/6999606/0a7fc9bd-f3be-4eef-a472-d42b30829fca.pdf&Basim=true",
+          "uniqueFileName": "6999606_13_14786249"
+        },
+        {
+          "actionType": 1,
+          "textField": "3- Numarataj [D3]",
+          "actionUrl": "http://d4static.zetacad.com/31/2019/8585/6999606/03151c87-db23-4ba3-9bff-32d53ba36348.jpg&Basim=true",
+          "uniqueFileName": "6999606_15_14786156"
+        },
+        {
+          "actionType": 2,
+          "textField": "4- Poliçe",
+          "actionUrl": "http://police3.zetacad.com/getRayPolice2.asp?police=85555165&Basim=true",
+          "uniqueFileName": "6999606_2_6652875"
+        }
+      ]
+    },
+    {
+      "title": "Firma Bilgileri",
+      "items": [
+        {
+          "textField": "Firma Adı",
+          "textValue": "Dipos 4 Test Firması"
+        },
+        {
+          "textField": "Yetkili",
+          "textValue": "Ahmet Akbayır"
+        },
+        {
+          "textField": "Telefon",
+          "textValue": "3328963252"
+        },
+        {
+          "textField": "GSM",
+          "textValue": "5073661184"
+        },
+        {
+          "actionType": 3,
+          "textField": "Adres",
+          "textValue": "Fevzi Paşa Mahallesi, Şebnem Sk. No:11, 41700 Darıca/Kocaeli, Turkey",
+          "actionUrl": "http://d4.zetacad.com/external/getMap?addr=Fevzi Paşa Mahallesi, Şebnem Sk. No:11, 41700 Darıca/Kocaeli, Turkey"
+        },
+        {
+          "actionType": 6,
+          "textValue": "Daha Fazla Bilgi",
+          "actionTitle": "Firma Bilgileri",
+          "actionUrl": "Firm/GetProjectFirmInfo",
+          "actionParamData": "{\"ProjectFirmId\":8585,\"UserId\":0,\"Channel\":null}"
+        }
+      ]
+    },
+    {
+      "title": "Mühendis Bilgileri",
+      "items": [
+        {
+          "textField": "Ad Soyad",
+          "textValue": "AHMET AKBAYIR"
+        },
+        {
+          "textField": "Telefon",
+          "textValue": "2164021000"
+        }
+      ]
+    }
+  ],
+  "isSuccess": true,
+  "message": "İşlem Başarılı.",
+  "statusCode": 1
+}
