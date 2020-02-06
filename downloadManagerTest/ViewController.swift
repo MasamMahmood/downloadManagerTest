@@ -102,7 +102,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return fileDownLoadDataArray.count //Appdata?.count ?? 0
+        return self.Appdata!.count //fileDownLoadDataArray.count //Appdata?.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -111,8 +111,16 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         //cell.fileNameLabel.text = dic?.projectName
         
+//        let downloadData = fileDownLoadDataArray[indexPath.row]
+//        cell.configureCell(with: downloadData)
+//        cell.cellDelegate = self
+        
         let downloadData = fileDownLoadDataArray[indexPath.row]
-        cell.configureCell(with: downloadData)
+
+        let mainProject = self.Appdata![indexPath.row]
+        print(mainProject.projectName as Any)
+
+        cell.configureCell(with: downloadData , projectName: mainProject)
         cell.cellDelegate = self
         
         return cell

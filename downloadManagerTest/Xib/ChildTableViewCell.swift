@@ -94,12 +94,12 @@ class ChildTableViewCell: UITableViewCell {
 //        stopDownload()
 //    }
     
-    func configureCell(with downloadInfo:DownLoadData){
+    func configureCell(with downloadInfo:DownLoadData, projectName:Appointment){
         
         // Set the download info into the cell
         self.downloadData = downloadInfo
         
-        fileNameLabel.text = downloadInfo.fileTitle
+        fileNameLabel.text = projectName.projectName
         if self.downloadData.groupDownloadON {
             startOrPauseDownload()
             // reset flag
